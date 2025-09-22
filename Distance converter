@@ -1,0 +1,9 @@
+print("hello, iam your distance converter")
+print("if you want to convert kilometers to miles then type A")
+print("if you want to convert miles to kilometers type B")
+choose=input("choose A or B :")
+number=float(input("enter the distance to convert : "))
+if choose=="A":
+   print(number*0.621371,"miles")
+elif choose=="B":
+     print(number/0.621371,"KM")
