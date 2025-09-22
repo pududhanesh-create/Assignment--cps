@@ -1,0 +1,11 @@
+print("hello iam here to find the the roots of the quadratic eqation")
+a= float(input("a : "))
+b = float(input("b : "))
+c = float(input("c : "))
+D = b**2 - 4*a*c  # D = Discriminant
+if (D<0):
+    print("No real roots")
+else:
+    root1 = (-b+(D)**1/2) / (2*a)
+    root2 = (-b-(D)**1/2) / (2*a)
+    print("Roots are : ",root1, "and", root2) 
