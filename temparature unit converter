@@ -1,0 +1,9 @@
+print("Hello iam your temperature unit converter")
+print("Type A if you want to convert celsius to fahrenheit")
+print("Type B if you want to convert fahrenheat to celsius")
+choose=input("choose A OR B :")
+num=float(input("enter the value to convert :"))
+if choose=="A":
+   print((num*1.8)+32,"F") 
+elif choose=="B":
+     print((num-32)*0.55,"C")        
