@@ -1,0 +1,7 @@
+n1=float(input("enter a number : "))
+sqroot=n1**1/2
+cbroot=n1**1/3
+print("Square root of the given number is :",sqroot)
+print("Cube root of the given number is : ",cbroot)
+if n1<0:
+   print(" NEGTIVE VALUE OF ROOTS DOES NOT EXIST IN REAL NUMBER SYSTEM") 
